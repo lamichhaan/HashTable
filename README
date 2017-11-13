@@ -1,0 +1,53 @@
+File:    README
+Author:  Angat Lamichhane
+Date:    05/03/2016
+Class:   CSIS 352
+Program: Assignment 8
+
+BUILDING THE PROGRAM
+   This program was written in C++ and distributed to be built on a 
+   Linux system.  To build the program, type 'make' to create the 
+   executable called 'prog8’
+   
+RUNNING THE PROGRAM
+   Type 'prog8’ at the command prompt after building the program.
+
+PROGRAM DESCRIPTION
+    This is a tempelated class, this Templated class allow to write C++ code that will work with any data type.
+    It can allow any data type to be passed in
+    as a parameter or to be returned by afunction. this templated class allows  any data type to be used by the class.
+    This is especially important in Abstract Data Types (ADTs).  Basically, a data
+    type becomes a formal parameter to the template code.
+      
+PROGRAM INPUT
+	This program has default input already from main.cpp. no user input is required to run the program.   
+
+
+PROGRAM OUTPUT
+  All output is written to the screen.
+   
+   
+PROGRAM DESIGN
+   This Templated class cannot be compiled separately since the data type for the
+  template would not be known. this has to be compiled in the file that uses it.
+   
+ 
+    
+FILE INDEX
+  File     		Function			Description
+  ........		...........		.....................................
+  main.cpp		main			calls all other function
+  makefile					builds executable
+  hashtable.h					contains tempelated class hashtable
+  symbol.h					contains specification for symbol class
+  symbol.cpp					contains implementation for symbol class
+  README					this file
+  
+  
+PROGRAM TESTING
+    This program was tested with different sets of data,
+    checked for invalid index of list
+    there are no any bugs in this program.
+    
+  
+ 
